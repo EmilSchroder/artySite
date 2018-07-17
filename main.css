@@ -1,0 +1,34 @@
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+button{
+    padding: 10;
+
+}
+
+.parallax{
+    min-height: 500px;
+
+    align-items: center;
+    justify-content: center;
+
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.underpic{
+    font-size: 5em;
+}
+
+#mountain-view{
+    background-image: url(images/mountain-outdoor.jpg);
+}
+
+#shoes{
+    background-image: url(images/shoes-outside.jpg);
+}
