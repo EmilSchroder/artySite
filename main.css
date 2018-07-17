@@ -7,27 +7,38 @@ body, html{
 
 button{
     padding: 5px 40px;
-    background-color: white;
-    border: 2px solid black;
+    background-color: #1a75ff;
+    border: #1a75ff;
+    color: white;
     border-radius: 10px;
-    transition: all 0.5s linear;
+    transition: all 0.2s linear;
     
 }
 
 button:hover{
-    background-color:  #79ff4d;
+    background-color:  #62ce3e;
 
 }
 
+button:active{
+    border: none;
+    outline: none;
+}
+
+button:focus{
+    outline: 0;
+}
+
 .ramble{
-    color: rgb(211, 208, 201);
+    color: rgb(201, 204, 211);
+    background-color: rgba(47, 79, 79, 0.603);
+    padding: 30px;
 }
 
 .parallax{
     min-height: 800px;
 
     align-items: center;
-    justify-content: center;
 
 
     background-attachment: fixed;
@@ -50,4 +61,23 @@ button:hover{
 
 #woodlands{
     background-image: url(images/woodlands.jpg);
+}
+
+#tech{
+    
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+#reflect{
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-left: 30%;
+}
+
+#game{
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-left: 30%;
+    border-right: 30%;
 }
