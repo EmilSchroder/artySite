@@ -3,13 +3,28 @@ body, html{
     margin: 0;
 }
 
+
+
 button{
-    padding: 10;
+    padding: 5px 40px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: all 0.5s linear;
+    
+}
+
+button:hover{
+    background-color:  #79ff4d;
 
 }
 
+.ramble{
+    color: rgb(211, 208, 201);
+}
+
 .parallax{
-    min-height: 500px;
+    min-height: 800px;
 
     align-items: center;
     justify-content: center;
@@ -31,4 +46,8 @@ button{
 
 #shoes{
     background-image: url(images/shoes-outside.jpg);
+}
+
+#woodlands{
+    background-image: url(images/woodlands.jpg);
 }
